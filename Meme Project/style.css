@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 body {
   background-color: black;
 }
@@ -17,24 +16,4 @@ h1 {
 .motivation-img {
     border: 5px solid white;
     width: 65%;
-=======
-body {
-  background-color: black;
-}
-.poster {
-    width: 45%;
-    margin-left: 28%;
-    margin-top: 50px;
-    color: white;
-    font-family: "Libre Baskerville", serif;
-    text-align: center;
-  }
-h1 {
-    text-transform: uppercase;
-    font-size: 2rem;
-}
-.motivation-img {
-    border: 5px solid white;
-    width: 65%;
->>>>>>> d5c47ea7510b0ced9beb59df62f03531500c776a
   }
