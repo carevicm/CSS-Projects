@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Milan's CSS Portfolio</title>
+    <style>
+        body {
+            font-family: "Poppins", sans-serif;
+            margin: 50px 50px 0;
+            background-color: #faf9f6;
+            display: flex;
+            flex-direction: column;
+            min-height: 95vh;
+        }
+        
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        
+        h1 {
+            font-size: 5rem;
+            color: #0c356a;
+            text-align: center;
+        }
+        
+        .creative {
+            color: midnightblue;
+        }
+        
+        h2 {
+            font-size: 2rem;
+            text-align: center;
+            color: #0c356a;
+        }
+        
+        hr {
+            width: 100%;
+            margin: 20px 0;
+        }
+        a {
+            color: #0c356a;
+        }
+        
+        .card {
+            flex: 1;
+            margin: 0 1%;
+            width: 48%;
+            display: inline-block;
+            vertical-align: top;
+            text-align: center;
+            border: 1px solid #ddd;
+            padding: 10px;
+            background-color: #fff;
+        }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        @media (max-width: 680px) {
+            h1 {
+                font-size: 3.5rem;
+            }
+            
+            .card {
+                width: 100%;
+                margin: 0 0 10px 0;
+            }
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Milan's CSS <span class="creative">Portfolio</span></h1>
+        <h2>CSS Projects</h2>
+        <hr>
+        
+        <div class="card">
+            <h3><a href="./Flag Project/index.html">Flag Project</a></h3>
+            <img src="./images/flag.png" alt="Flag Project">
+        </div>
+        
+        <div class="card">
+            <h3><a href="./Meme Project/index.html">Meme Project</a></h3>
+            <img src="./images/meme_1.png" alt="Meme Project">
+        </div>
+        
+        <hr>
+        
+        <div class="card">
+            <h3><a href="./Meme Project/2nd Project/index.html">Second Meme Project</a></h3>
+            <img src="./images/meme_2.png" alt="Second Meme Project">
+        </div>
+        
+        <div class="card">
+            <h3><a href="./Web Design Agency Project/index.html">Responsive Web Design Agency Project</a></h3>
+            <img src="./images/design_agency.png" alt="Web Design Agency Project">
+        </div>
+        
+        <hr>
+        
+        <h3>
+            <a href="./public/about.html">About Me</a>
+            <a href="./public/contact.html">Contact Me</a>
+        </h3>
+    </div>
+</body>
+</html>
